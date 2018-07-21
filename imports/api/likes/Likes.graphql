@@ -1,0 +1,12 @@
+type like{
+    _id:String
+    userId: String
+    clothId: String
+
+}
+
+extend type Mutation {
+    addlike(
+        itemId: String
+    ): like
+}

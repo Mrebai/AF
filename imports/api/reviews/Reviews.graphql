@@ -1,0 +1,16 @@
+type Review{
+    _id : String
+    content:String
+    userEmail: String
+    userID: String
+    rate: Int
+    date: String
+}
+
+extend type Mutation{
+    setReview(
+        prodId: String!
+        review: String!
+        rate: Int!
+    ): Review
+}

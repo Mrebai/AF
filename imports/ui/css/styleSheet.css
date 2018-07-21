@@ -1,0 +1,933 @@
+.hidden{
+
+  display: none;
+}
+.shown{
+
+  display: block;
+}
+
+
+/************************************************PreNAv************************************************/
+/************************************************PreNAv************************************************/
+/************************************************PreNAv************************************************/
+/************************************************PreNAv************************************************/
+/************************************************PreNAv************************************************/
+/************************************************PreNAv************************************************/
+.topNav{
+  background-color: #333333;
+  height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-container{
+  height: 100%;
+  position:relative;
+
+}
+
+
+.topNav-nav a {
+  text-decoration: none;
+  color: #999999;
+
+  position: relative;
+  padding-top: 10px;
+}
+.topNav-nav {
+  height: 100%;
+  position: relative;
+  right: 0;
+}
+#myCart{
+  background-color: #00c8c8;
+  color: white;
+  font-weight: bold;
+  width:150px;
+  text-align: center;
+  height: 40px;
+z-index: 9999;
+  padding-top: 10px;
+  position: fixed;
+  float: right;;
+  overflow: hidden;;
+  right: 0px;
+}
+
+.cartContent{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top:40px;
+}
+.accountNav{
+ float: right;
+}
+.currency{
+  text-decoration: none;
+  color: #999999;
+  margin-left: 2em;
+  position: relative;
+}
+.navSearch{
+  width:200px;
+  position: relative;
+  bottom:6px;
+}
+/************************************************NAV************************************************/
+/************************************************NAV************************************************/
+/************************************************NAV************************************************/
+/************************************************NAV************************************************/
+/************************************************NAV************************************************/
+/************************************************NAV************************************************/
+.mainNav{
+  position: absolute;
+
+}
+.navContainer{
+  display: block;
+  width: 100%;
+
+}
+.navItem{
+  font-size: 12px;
+
+}
+.searchBarContainer{
+    width:150px;
+}
+.searchBtn {
+display: table;
+  z-index: 500;
+  width: 30px;
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+  background-color: white;
+margin: 0;
+height: 30px;
+text-align: center;
+  margin-top: 4px;
+  padding: 1px;
+  color: #DDDDDD;
+  opacity: .7;
+}
+.searchIcon{
+  color: #CCCCCC;
+}
+.menuBtn{
+  text-decoration: none;
+  color: #555555;
+
+}
+
+.menuBtn:hover{
+  text-decoration: none;
+  color: #00c7c7;
+
+}
+@keyframes toBlue {
+  from {  background-color:#FFFFFF; opacity: .7}
+  to {  background-color: #00c7c7; opacity: 1}
+}
+
+@keyframes toWhite {
+  from {background-color: #00c7c7; opacity: 1}
+  to {  background-color:#FFFFFF; opacity: .7}
+}
+
+
+.navSearch{
+  font-size: 12px;
+
+  height: 30px;
+  border: 0px solid white;
+  color: #999999;
+  margin-top: 10px;
+}
+
+
+.navbar-brand{
+  padding-top: 0;
+  margin-top: -10px;
+}
+.dropMe{
+  min-width: 400px;
+}
+.menu-drop{
+  background-color: transparent;
+  padding: 5px 10px;
+}
+.menuBtn{
+  padding: 0;
+  margin: 0;
+}
+.topNav-nav a{
+  padding-top: 10px;
+}
+.Casual ul {
+  background-color: transparent;
+  font-size: 12px;
+
+}
+
+.listContainer{
+  width:50%;
+}
+.navListTitle{
+  padding-top: 10px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.sails h4 {
+  color: #ffffff;
+  padding:auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.sail-Container{
+
+  width: 100%;
+
+
+  margin: auto;
+  margin-bottom: 10px;
+
+  top: 0; left: 0; bottom: 0; right: 0;
+ overflow: visible;
+}
+.sails{
+  position: relative;
+  padding: 20px 5px;
+  background-color: #333333;
+  width: 90%;
+  margin: auto;
+}
+
+/************************************************Footer************************************************/
+/************************************************Footer************************************************/
+/************************************************Footer************************************************/
+/************************************************Footer************************************************/
+/************************************************Footer************************************************/
+/************************************************Footer************************************************/
+
+.footerItem{
+  word-wrap: break-word;
+}
+
+.award{
+  background-color: #333333;
+  color:white;
+  display: table;
+  width: 100%;
+  min-height: 200px;
+
+}
+.awardWinner{
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.allAwards{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.allAwards h4{
+font-size: 4rem;
+
+}
+.fashionAward{
+  text-align: center;
+}
+.socialMedia{
+
+  display: table;
+
+  height: 200px;
+  vertical-align: center;
+  padding-top: 18%;
+  width: 100%;
+
+
+}
+.awardContainer{
+  display: table;
+  width: 100%;
+}
+.footerItemContainer{
+  display: table-cell;
+  vertical-align: middle;
+}
+.socials{
+
+}
+.social{
+  opacity: .7;
+  font-size: 30px;
+  display: block;
+  margin: 0 20px;
+}
+.social:hover{
+  opacity: 1;
+}
+.footerContent{
+  margin-left:.75rem;
+  padding-top:.15rem;
+  border: 0;
+}
+
+.footerLink{
+  text-decoration: none;
+  color:#727272;
+  font-size: 12px;
+}
+.footerLink:hover{
+  text-decoration: none;
+  color:#00c8c8;
+  font-size: 12px;
+}
+/************************************************header************************************************/
+/************************************************header************************************************/
+/************************************************header************************************************/
+/************************************************header************************************************/
+/************************************************header************************************************/
+/************************************************header************************************************/
+
+
+.headerImg{
+
+}
+.Header{
+  background-image: url("/img/homeBackgrond.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+#shop-men{
+  text-decoration: none;
+  color:#454647;
+  position: relative;
+  width: 300px;
+  background-color: transparent;
+  z-index: 999;
+  margin-left: 60%;
+  margin-bottom: 100px;
+  opacity: .8;
+  border: 1px solid #454647;
+}
+#shop-men:hover{
+  opacity: 1;
+}
+
+/************************************************CATH************************************************/
+/************************************************CATH************************************************/
+/************************************************CATH************************************************/
+/************************************************CATH************************************************/
+/************************************************CATH************************************************/
+
+
+
+
+.card-img-top{
+  padding: 0;
+}
+.price{
+  position: absolute;
+  z-index: 999;
+  color: #9a9a9a;
+}
+
+.cardEnd{
+ background-color: #727272;
+  color: #f8f8f8;
+  text-align: center;
+  border-radius: 100%;
+  min-width: 30px;
+  height: 30px;
+  text-decoration: none;
+font-size: 1.1rem;
+  padding: 0;
+
+}
+.icon{
+  display: block;
+  margin: auto;
+  margin-top: 6px;
+
+}
+.cardEnd:hover{
+  text-decoration: none;
+  background-color: #00c8c8;
+  color: white;
+}
+.thumbs{
+
+  position: relative;
+  z-index: 999;
+}
+.previewImg{
+ width: 40px;
+  height: auto;
+}
+.previewImg:hover{
+  width: 40%;
+  height: auto;
+}
+.itemImgContainer{
+  height: 300px;
+  width: 100%;
+  display: table;
+}
+
+.itemImg{
+  height: 300px;
+  width: auto;
+  display: table-cell;
+  horiz-align: center;
+  vertical-align: center;
+}
+.card-text{
+  min-height: 3rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: normal;
+  line-height: 1rem;
+  max-height: 3rem;
+ text-align: center;
+  color:#333333;
+  font-size: .8rem;
+
+}
+.card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1rem;
+  max-height: 1rem;
+}
+
+
+.editItem{
+  margin: 5px 5px;
+  color : #A08E8C;
+  border: 1px solid #A08E8C;
+  border-radius: 0;
+  width: 100px;
+  text-align: center;
+}
+
+.editItem:hover{
+  text-decoration: none;
+  color:white ;
+  background-color:#00C8C8 ;
+}
+
+.deleteItem{
+  margin: 5px 5px;
+  color : #A08E8C;
+  border: 1px solid #A08E8C;
+  border-radius: 0;
+  width: 100px;
+  text-align: center;
+}
+
+.deleteItem:hover{
+  text-decoration: none;
+  color:white ;
+  background-color:#F8D7DA ;
+}
+.buttonsEdit{
+  margin-bottom: 10px;
+}
+.cardContainer{
+  margin-bottom: 10px;
+
+}
+
+.cardInnerContainer{
+
+  margin: 5px;
+}
+
+.cathPick{
+  color: #00C8C8  ;
+  opacity: .8;
+  font-size: .9rem;
+}
+
+.cathPick:hover{
+  color: #00C8C8  ;
+  opacity: 1;
+  font-size: .9rem;
+}
+/************************************************subHead************************************************/
+/************************************************subHead************************************************/
+/************************************************subHead************************************************/
+/************************************************subHead************************************************/
+/************************************************subHead************************************************/
+
+.subHeader{
+  height: 300px;
+  background-image:url("/img/homeBackgrond2.jpg");
+  background-size: cover;
+  margin-top: 80px;
+}
+
+/************************************************THE BRAND************************************************/
+/************************************************THE BRAND************************************************/
+/************************************************THE BRAND************************************************/
+/************************************************THE BRAND************************************************/
+/************************************************THE BRAND************************************************/
+
+.brandTitle{
+  color: #575153;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.brandSubtitle{
+  color: #575153;
+  font-size: 14px;
+}
+
+.brandText{
+  color: #575153;
+  font-size: 12px;
+}
+
+/************************************************LOCATIONS***********************************************/
+/************************************************LOCATIONS***********************************************/
+/************************************************LOCATIONS***********************************************/
+/************************************************LOCATIONS***********************************************/
+/************************************************LOCATIONS***********************************************/
+
+.details{
+  color :#8e8c8c;
+}
+.infoAdress{
+  font-size: 14px;
+}
+.infoInfos{
+  font-size: 12px;
+}
+.map{
+
+  background-size: cover;
+  width: 100%;
+}
+.locationBtn{
+  text-decoration: none;
+  border : 2px solid #737373;
+  color: #454647;
+  width: 200px;
+  border-radius: 0;
+}
+
+.locationBtn:hover{
+  color :#f8f8f8;
+  background-color: #00c8c8;
+  border: none;
+  text-decoration: none;
+}
+
+.locationBtn:focus{
+  color :#f8f8f8;
+  background-color: #00c8c8;
+  border: none;
+  text-decoration: none;
+}
+
+/************************************************SignIn SignUp***********************************************/
+/************************************************SignIn SignUp***********************************************/
+/************************************************SignIn SignUp***********************************************/
+/************************************************SignIn SignUp***********************************************/
+/************************************************SignIn SignUp***********************************************/
+
+.input{
+  border: 0;
+  color : #575153;
+  box-shadow: 0 2px #ddbcc2;
+  border-radius: 0;
+
+}
+.input:focus{
+  border: 0;
+  color : #575153;
+
+  box-shadow: 0 2px #bb5465;
+  border-radius: 0;
+  border: none;
+}
+
+.loginError{
+  color: #bb5465;
+
+}
+.form-group{
+  margin-top: 40px;
+}
+
+.formTitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.formBtn{
+  letter-spacing: 5px;
+  text-decoration: none;
+  color:#454647;
+  border-radius: 0;
+  border: 1px solid #454647;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.formBtn:hover{
+  border: 1px solid #454647;
+  color:#f8f8f8;
+  background-color: #00c8c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+.formBtn:focus{
+  border: 1px solid #454647;
+  color:#f8f8f8;
+  background-color: #00c8c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
+.dropzone{
+  width: 100%;
+  height: 200px;
+  background-color: #ddbcc2;
+  border: 2px dashed #bb5465;
+  display: table;
+}
+
+
+.dropzone p{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.addItemImgContainer{
+  display: table;
+  height: 100px;
+  border-spacing:5px;
+}
+.imgPrev{
+  display: table-cell;
+  vertical-align: center;
+  horiz-align: center;
+  margin: 0;
+  width: auto;
+  height:  100%;
+  border: 2px solid #999999;
+}
+.imgContainer{
+  padding: 5px;
+}
+.btn-danger{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+.fa-window-close{
+  height: 100%;
+width: auto;
+  color:  #bb5465;
+
+}
+.deletePic{
+  padding: 0;
+  margin: 0;
+}
+.deletePic:hover{
+
+  color: #ddbcc2;
+}
+
+.mainImg{
+  float: right;
+  padding: 0;
+  margin: 0;
+
+}
+.fa-thumbtack{
+  color:#138496;
+}
+
+
+
+
+
+
+
+
+/************************************************item View***********************************************/
+/************************************************item View***********************************************/
+/************************************************item View***********************************************/
+/************************************************item View***********************************************/
+/************************************************item View***********************************************/
+
+.itemTitle{
+  font-size: 1.2rem;
+  color:#575153;
+}
+
+.slick-next{
+  margin-right:40px ;
+    z-index: 999;
+}
+.slick-prev{
+  margin-left:40px ;
+    z-index: 999;
+}
+.sliderContainer{
+  display: table;
+}
+
+.sliderContainer > img{
+  display: block;
+  margin:auto;
+  vertical-align: center;
+  horiz-align: center;
+  height: 500px;
+  width: auto;
+}
+.slick-arrow {
+  height: 20%;
+   background-color: #00C8C8;
+
+ }
+
+.slick-arrow:hover {
+   background-color: #00C8C8;
+
+ }
+
+.slick-arrow:focus {
+  background-color: #00C8C8;
+
+}
+.stars{
+  display: inline-block;
+}
+
+.addReviewBtn{
+  padding: 0;
+  margin: 0;
+}
+
+#reviewsNumber{
+  padding: 0;
+  margin: auto .5rem;
+}
+
+.commentCard{
+  width: 100%;
+}
+
+#reviewsNumber{
+  color: #727272;
+  font-size: 1rem;
+}
+
+.addReview{
+  text-decoration: none;
+  color:#00c8c8;
+  font-size: 1rem;
+  opacity: .8;
+
+}
+.addReview:hover{
+  opacity: 1;
+  text-decoration: none;
+  color:#00c8c8;
+  font-size: 1rem;
+
+}
+
+.itemPrice{
+  color: #9a9a9a;
+  font-size: 2rem;
+
+
+}
+.oldPrice{
+  text-decoration: line-through;
+}
+
+.itemDetailsTitles{
+  color: #575153;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.itemDetails{
+  color:#8c8c8c;
+  font-size: 1rem;
+}
+
+.itemDesc{
+  font-size: .9rem;
+  color:#8e8c8c;
+}
+
+/************************************************scroll View***********************************************/
+/************************************************scroll View***********************************************/
+/************************************************scroll View***********************************************/
+/************************************************scroll View***********************************************/
+/************************************************scroll View***********************************************/
+
+.imageScroll{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************************************************cart***********************************************/
+/************************************************cart***********************************************/
+/************************************************cart***********************************************/
+/************************************************cart***********************************************/
+/************************************************cart***********************************************/
+
+.hoverCart{
+  position: fixed;
+    border: 2px solid #00C8C8;
+    width: 400px;
+    height: 400px;
+
+    z-index: 1000;
+    background-color: #333333;
+    float: right;
+    right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.cartContainer{
+  height: 100px;
+  width: auto;
+  z-index: 1000;
+  background-color:rgba(255, 255, 255,.8);
+  margin-bottom: 5px;
+
+}
+
+.cartImgContainer{
+  height: 100px;
+  width: 100px;
+
+}
+.cartImg{
+  height: 100px;
+  width: auto;
+  margin: auto;
+
+  display: block;
+}
+.cartFirstRow{
+  height: 30px;
+  overflow-y:hidden ;
+}
+
+.deleteCart{
+  margin: 0;
+  margin-top: -5px;
+}
+
+.totalPrice{
+  position: sticky;
+  bottom: 0;
+  background-color: #DDDDDD;
+
+  display: block;
+  padding: auto;
+  margin-bottom: auto ;
+  width: 100%;
+}
+
+.totalPrice p {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.totalPrice button {
+
+  display: block;
+  position: sticky;
+  height: 100%;
+  text-decoration: none;
+  color: #00C8C8;
+  scroll-padding-block-end: revert;
+}
+
+/* The animation code */
+@keyframes shrink {
+  from {width: 150px; opacity: 1}
+  to {width: 40px; opacity: .7}
+}
+
+@keyframes expand {
+  from {width: 40px; opacity: .7}
+  to {width: 150px;  opacity: 1}
+}
+
+/************************************************ TAG ***********************************************/
+/************************************************ TAG ***********************************************/
+/************************************************ TAG ***********************************************/
+/************************************************ TAG ***********************************************/
+/************************************************ TAG ***********************************************/
+
+
+.titleOfCat{
+  text-align: center;
+  color: #868686;
+  letter-spacing: 5px;
+}
+
+
+.itemNotFound{
+  font-size: 2rem;
+  text-align: center;
+  color:#868686;
+}
+
+
+
+/************************************************ Responsiveness ***********************************************/
+
+@media (max-width: 870px) {
+  .wideScreenNav{
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 991.98px) {
+  .navContainer{
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+  }
+
+}
+
+
+
+
+
